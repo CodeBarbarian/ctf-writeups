@@ -18,6 +18,8 @@ Can you convert the number 42 (base 10) to binary (base 2)?
 0	0	1	0	1	0	1	0
 
 ```
+So we can conclude that 32+8+2=42
+
 3. Rule of thumb. If we dont use any bits in the begining, remove them.
 
 Flag: picoCTF{101010}
