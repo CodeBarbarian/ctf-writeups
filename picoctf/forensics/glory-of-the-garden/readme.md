@@ -113,6 +113,7 @@ There is a lot of text files, so let us use some grep magic to see if we find an
 grep -iR flag
 grep -iR pico
 grep -iR ctf
+grep -iR "count>1"
 ```
 Could not find anything of interest. So let us grep all the text and objects
 
@@ -145,4 +146,58 @@ Output:
 ```
 
 Need to look up the magic bytes as a reference: https://en.wikipedia.org/wiki/List_of_file_signatures
+
+We can see that our file:
+```
+ffd8 ffe0 0010 4a46 4946 0001
+```
+Described as a JPEG raw or in the JFIF or Exif file format in the reference of file signatures.
+
+So this means it probably is not a magic byte. Since we are able to open the file, and it reads correctly. 
+
+5. Let us search through the file using the hexeditor
+
+```
+hexeditor garden.jpg
+``` 
+
+Let us search by ^w and select "Search by text string"
+
+And we find this!
+```
+00230550  A2 BB BD AC  96 87 98 E4   D3 B2 E8 7F  FF D9 48 65
+00230560  72 65 20 69  73 20 61 20   66 6C 61 67  20 22 70 69
+00230570  63 6F 43 54  46 7B 6D 6F   72 65 5F 74  68 61 6E 5F
+00230580  6D 33 33 74  73 5F 74 68   65 5F 33 79  33 65 42 64
+00230590  42 64 32 63  63 7D 22 0A
+```
+
+In ASCII representation starting at the last hex at 00230550:
+
+```
+Here is a flag "picoCTF{more_than_m33ts_the_3y3eBdBd2cc}"
+```
+
+Et Voila! 
+
+<br />
+
+## Conclusion
+Funny challenge, learned a lot about the process of investigating files again.
+
+Okay. So we probably could have used strings instead of going through all for figuring this it out, but part of the fun for sure! So by testing this: 
+```bash
+strings garden.jpg
+```
+On the last line printed out, we get:
+```
+Here is a flag "picoCTF{more_than_m33ts_the_3y3eBdBd2cc}"
+```
+So when we have a file, go through the list by using: 
+
+* file
+* exiftool
+* strings
+
+Skills that you can pick up from this is using hexeditor, getting file information and know your tools!
 
