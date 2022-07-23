@@ -199,5 +199,5 @@ So when we have a file, go through the list by using:
 * exiftool
 * strings
 
-Skills that you can pick up from this is using hexeditor, getting file information and know your tools!
+Skills that you can pick up from this is using hexeditor, getting file information and knowing your tools!
 
