@@ -22,6 +22,12 @@ Output:
 crossingtherubiconvfhsjkou
 ```
 
+So the complete flag: 
+
+```
+picoCTF{crossingtherubiconvfhsjkou}
+```
+
 ## Conclusion
 Learned to use the tr command. I think, some of it still seems like a mystery to me! 
 Fun little challenge, remember we used to play around with caesar ciphers with different shifts when I went to middle school. 
