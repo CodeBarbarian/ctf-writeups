@@ -1,0 +1,9 @@
+# BANNER FILE NOT PROVIDED (-b option)
+# BULK_EXTRACTOR-Version: 2.0.0
+# Feature-Recorder: url
+# Filename: pico_img.png
+# Feature-File-Version: 1.1
+284	http://www.w3.org/1999/02/22-rdf-syntax-ns#	:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <rdf:Descript
+371	http://ns.adobe.com/xap/1.0/	t="" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="h
+414	http://ns.adobe.com/xap/1.0/mm/	/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="h
+460	http://ns.adobe.com/xap/1.0/sType/ResourceRef#	/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmp:CreatorToo

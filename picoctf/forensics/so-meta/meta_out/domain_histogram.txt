@@ -1,0 +1,7 @@
+# BANNER FILE NOT PROVIDED (-b option)
+# BULK_EXTRACTOR-Version: 2.0.0
+# Feature-Recorder: domain
+# Filename: pico_img.png
+# Histogram-File-Version: 1.1
+n=3	ns.adobe.com
+n=1	www.w3.org

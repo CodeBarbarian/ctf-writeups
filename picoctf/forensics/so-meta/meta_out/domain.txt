@@ -1,0 +1,9 @@
+# BANNER FILE NOT PROVIDED (-b option)
+# BULK_EXTRACTOR-Version: 2.0.0
+# Feature-Recorder: domain
+# Filename: pico_img.png
+# Feature-File-Version: 1.1
+291	www.w3.org	lns:rdf="http://www.w3.org/1999/02/22-rdf-
+378	ns.adobe.com	lns:xmp="http://ns.adobe.com/xap/1.0/" xmlns
+421	ns.adobe.com	s:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xm
+467	ns.adobe.com	s:stRef="http://ns.adobe.com/xap/1.0/sType/R
